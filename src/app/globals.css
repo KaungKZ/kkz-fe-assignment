@@ -16,11 +16,11 @@ body {
   cursor: none;
 }
 
-/* a,
+a,
 button,
 [role="button"] {
   cursor: none;
-} */
+}
 html.lenis,
 html.lenis body {
   height: auto;
