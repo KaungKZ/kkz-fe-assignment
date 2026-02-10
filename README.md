@@ -51,7 +51,7 @@ There are **2 pages (Home & Services):** Based on the UI video(s) on the drive f
 
 ---
 
-# Global features
+## Global features
 
 - **Custom Cursor:**
 - **Smooth Scroll:**
@@ -59,7 +59,7 @@ There are **2 pages (Home & Services):** Based on the UI video(s) on the drive f
 
 ---
 
-## state management, animation and utilities
+# state management, animation and utilities
 
 - **NEXTJS:** for better routing configuration, SEO and server side management and api calls (for future use without having to use loading states)
 - **React Query:** handling loading, success states
@@ -67,6 +67,14 @@ There are **2 pages (Home & Services):** Based on the UI video(s) on the drive f
 - **GSAP:** for on scroll animations (fade in, slide up, brightness etc.)
 
 ---
+
+# Git commit history
+
+- 9bc6c2e (HEAD -> master, origin/master) updated readme file
+- e3d62b7 added services page and animation
+- 4a37f79 added marquee and dummy api call
+- 99f32c3 init added dependencies
+- 4da69e1 Initial commit from Create Next App
 
 # Summary
 
