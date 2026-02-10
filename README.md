@@ -1,8 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+First, install dependencies and run the development server:
+
+```bash
+npm i
+```
 
 ```bash
 npm run dev
@@ -16,21 +18,58 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Technical Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+In this project, I use these tech stacks
 
-## Learn More
+- **Next.js (App Router):**
+- **Tailwind CSS:**
+- **GSAP (GreenSock Animation Platform):**
+- **Lenis:**
+- **TanStack React Query:**
+- **Axios:**
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# UI Features & Implementations
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+There are **2 pages (Home & Services):** Based on the UI video(s) on the drive folder, I implemented
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Home Page
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Marquee Header:**
+- **Public API Integration:**
+
+---
+
+## Services Page
+
+- **Text Reveal Effect:**
+- **Stacked Card Slider:**
+
+---
+
+# Global features
+
+- **Custom Cursor:**
+- **Smooth Scroll:**
+- **Parallax Footer:**
+
+---
+
+## state management, animation and utilities
+
+- **NEXTJS:** for better routing configuration, SEO and server side management and api calls (for future use without having to use loading states)
+- **React Query:** handling loading, success states
+- **Axios:** for best practice with catching error for data fetching
+- **GSAP:** for on scroll animations (fade in, slide up, brightness etc.)
+
+---
+
+# Summary
+
+- **Total Coding Time:** ~21 Hours
+- **AI Assistant:** Google Gemini
+- **Usage of AI:** content generation and GSAP animation code references
